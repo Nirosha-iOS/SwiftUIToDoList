@@ -17,8 +17,8 @@ struct RegisterView: View {
             VStack{
 
                 
-                HeaderView(title: "Register", subtitle: "Create your Schedule to be done", angle: 15, bgColor1: .yellow, bgColor2: .green)
-                    .offset(y:-75)
+                HeaderView(title: "Register", subtitle: "Create your Schedule to be done", angle1: 15, angle2: 0, bgColor1: .yellow, bgColor2: .yellow, viewHeight: 250)
+                    .offset(y:-60)
                 Form{
                     
                     if !viewModel.errorMessage.isEmpty {
